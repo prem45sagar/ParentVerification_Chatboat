@@ -1,0 +1,7 @@
+flask
+flask-cors
+pandas
+numpy
+openpyxl
+scikit-learn
+google-cloud-speech

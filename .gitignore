@@ -1,0 +1,30 @@
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Python (General)
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/*.sqlite3
+
+# Logs
+*.log
+backend/flask_log*.txt
+
+# OS File System
+.DS_Store
+Thumbs.db
+
+# Dataset/Binary Data
+# If you want to keep the dataset but it's large, uncomment this:
+# backend/data/academic_dataset.xlsx
+
+# Vercel / IDEs
+.vercel/
+.vscode/
+.idea/
+*.swp
