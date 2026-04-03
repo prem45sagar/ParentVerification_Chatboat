@@ -8,6 +8,6 @@
 // otherwise we use the standard localhost for development.
 const BASE_URL = import.meta.env.PROD 
   ? '/api' 
-  : 'http://localhost:5001/api';
+  : 'http://localhost:5001';
 
 export default BASE_URL;

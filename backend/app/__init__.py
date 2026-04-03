@@ -14,9 +14,9 @@ def create_app(config_class=Config):
     from app.routes.notification_routes import notification_bp
     
     # Register blueprints
-    app.register_blueprint(chatbot_bp, url_prefix='/api')
-    app.register_blueprint(speech_bp, url_prefix='/api')
-    app.register_blueprint(notification_bp, url_prefix='/api')
+    app.register_blueprint(chatbot_bp, url_prefix='/')
+    app.register_blueprint(speech_bp, url_prefix='/')
+    app.register_blueprint(notification_bp, url_prefix='/')
     
     # Health check route
     @app.route("/", methods=["GET"])
